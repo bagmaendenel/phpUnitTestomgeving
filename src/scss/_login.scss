@@ -1,0 +1,78 @@
+.login {
+
+	.loginFormContainer {
+		margin-top:25px;
+		
+		headerImg {
+			margin-top:25px;
+			max-width:100%;
+		}
+		
+		h3 {
+			margin:35px 0px;
+		}
+	}
+
+
+	.headTitle {
+		margin-top:50px;
+	}
+
+	.loginForm {
+		border-radius:3px;
+		padding:25px 0px;
+		line-height:25px;
+	}
+
+	label {
+		font-weight:500;
+		width:20%;
+		float:left;
+		font-size:13px;
+		color:$ericssonBlue;
+	}
+
+	.form-group {
+		height:20px;
+	}
+	
+	p {
+		line-height:20px;
+	}
+
+	.input {
+		width:80%;
+		padding:2px;
+		float:left;
+		height:25px;
+		border-radius:3px;
+	}
+
+	.button {
+		margin-top:25px;
+	}
+
+	.requestAccount {
+		a {
+			margin-left:10px;
+		}
+	}
+
+	.loginFooter {
+		padding:10px 0px !important;
+		font-size:11px;
+		margin-top:15px;
+		border-top:1px solid $light-grey;
+	}
+	
+	.modal-body {
+		
+		.button {
+			float:right;
+		}
+		
+		p {
+			margin:25px 0px;
+		}
+	}
+}

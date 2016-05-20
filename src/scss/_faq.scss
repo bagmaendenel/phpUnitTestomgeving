@@ -1,0 +1,96 @@
+.faq {
+	.categoriesContainer {
+		border:2px solid $border-grey;
+		padding:20px;
+		border-radius:3px;
+		background-color:$white;
+	
+	
+		.search {
+			text-align:left;
+		
+			input {
+				padding-right:3px;
+				height:25px;
+				width:80%;
+			}
+			label {
+				height:25px;
+				width:15%;
+			}
+		}
+	
+		.categories {
+			margin-top:25px;
+			font-size:12px;
+			list-style:none;
+			line-height:45px;
+			
+			li:first-child {
+				border-top:1px solid $light-grey;
+			}
+
+			li {
+				border-bottom:1px solid $light-grey;
+			
+				img {
+					padding-right:15px;
+				}
+			}
+		}
+		
+		.question {
+			margin-top:25px;
+			
+			img {
+				padding-right:10px;
+			}
+		}
+	}
+	
+	.faqHeader {
+        font-size:27px;
+        margin: 20px;
+    }
+	
+	.panel-title {
+		img {
+			float:right;
+			max-width:15px;
+		}
+	}
+	
+	.panel-body {
+		font-size:12px;
+	}
+	
+	.panel-default>.panel-heading {
+		border-bottom:1px solid $light-grey;
+		background:$white; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#f6f6f6, #eceded); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#f6f6f6, #eceded); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#f6f6f6, #eceded); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#f6f6f6, #eceded); /* Standard syntax */
+	}
+
+    .panel-heading [data-toggle="collapse"] img {
+        -webkit-transform: rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed img {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        color: #454444;
+    }
+	
+	panel {
+		color:#333;
+	}
+}

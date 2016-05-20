@@ -1,0 +1,177 @@
+.revisions {
+	h4 {
+		margin:40px 0px 25px 0px
+	}
+
+	.table {
+		padding:0px 15px;
+		border:1px solid $light-grey;
+		
+		tr {
+			cursor:pointer;
+			span {
+				padding:10px;
+				color:$white;
+			}
+					
+			a {
+				color:#333;
+			}
+			
+			a:hover {
+				color:#006862;
+			}
+		}
+		
+		tr:first-child {
+			background-color:$green !important;
+		}
+		
+		tr:nth-child(odd) {
+			background-color:#f8f8f8;
+		}
+		
+		tr:hover {
+			background-color:#ebebec;
+		}
+	
+		td {
+			color:$dark-grey;
+			vertical-align:middle;
+			
+			img {
+				padding:0px 8px;
+			}
+		}
+		
+		td b{
+			color:$white;
+		}
+		
+		td:first-child {
+			padding-left:35px;
+		}	
+	}
+
+	.categoryContainer {
+		display:inline-block;
+		padding:0px 15px;
+		margin:0px;
+		width:33%;
+	
+		.categories {
+			list-style:none;
+			
+			:first-child li {
+				border-top:1px solid $light-grey;
+			}	
+			
+			li {
+				line-height:35px;
+				border-bottom:1px solid $light-grey;
+			}
+		}
+		
+		.totalItemsPerCategory {
+			float:right;
+			font-size:11px;
+		}
+	}
+	
+	.itemTop {
+		margin-top:25px;
+		height:26px;
+		margin-bottom:15px;
+		
+		label {
+			margin-top:1px;
+		}
+	}
+	
+	.switch {
+		
+		a {
+			float:right;
+			margin-top:5px;
+		}
+		
+		img {
+			padding:5px;
+		}
+	}
+
+	.item {
+		padding:15px 0px;
+		margin:15px 0px;
+		border-top:1px solid $light-grey;
+		border-bottom:1px solid $light-grey;
+		
+		b {
+			font-size:12px;
+		}
+		
+		.productImg {
+			margin-top:15px;
+			max-width:80%;
+		}
+		
+		ul {
+			padding:0px 5px;
+			float:left;
+			font-size:11px;
+			
+			li {
+				line-height:24px;
+			}
+		}
+		
+		p {
+			font-size:11px;
+			text-align:justify;
+			
+			a {
+				padding-top:25px;
+			}
+		}
+	}
+}
+
+
+	.modal-dialog {
+	
+		.item {
+			padding:15px 0px;
+			border-top:1px solid $light-grey;
+			border-bottom:1px solid $light-grey;
+			
+			b {
+				font-size:12px;
+				margin:15px;
+			}
+			
+			.productImg {
+				margin-top:15px;
+				max-width:80%;
+			}
+			
+			ul {
+				padding:0px 5px;
+				float:left;
+				font-size:11px;
+				list-style:none;
+				
+				li {
+					margin:5px 5px;
+				}
+			}
+			
+			p {
+				font-size:11px;
+				text-align:justify;
+				
+				a {
+					padding-top:25px;
+				}
+			}
+		}
+	}

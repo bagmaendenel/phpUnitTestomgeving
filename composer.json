@@ -1,0 +1,20 @@
+{
+    "require": {
+		"phpunit/phpunit": "*",
+		"phpunit/php-invoker": "*",
+		"phpunit/dbunit": ">=1.2"
+    },
+    "require-dev": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "mrf-Final\\src\\classes\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "mrf-Final\\src\\tests\\": "tests"
+        }
+    }
+}

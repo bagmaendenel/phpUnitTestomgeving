@@ -1,0 +1,74 @@
+.line {
+    background: -webkit-gradient(linear, left top, right top, color-stop(0, #a1c517), color-stop(25%, #009045), color-stop(50%, #0082b6), color-stop(75%, #151f77), color-stop(100%, #db004f));
+    height: 3px;
+    padding: 0px;
+}
+
+header {
+	background-color:$white;
+
+	.nav {
+		height:80px;
+		list-style:none;
+		
+		:first-child > a {
+			padding:0px;
+		}
+	}
+	
+	.logo {
+		max-height:45px;
+	}
+	
+	.nav li {
+		line-height:80px;
+		float:left;
+		margin-right:50px;
+		font-size:12px;
+		font-weight:700;
+		text-transform:uppercase;
+		
+		a {
+			padding:0px 25px;
+		}
+		
+		:hover {
+			background-color:$white;
+			text-decoration:underline;
+		}
+	}
+	
+	.active {
+		border-top:4px solid $ericssonBlue;
+	}
+	
+	.userDetails {
+		padding-top:5px;
+		list-style:none;
+	
+		li {
+			width:33%;
+			text-align:right;
+			img {
+				margin-right:6px;
+			}
+		
+			float:left;
+
+		}
+	}
+	
+	.breadcrumbsContainer {
+		height:35px;
+		border-bottom:1px solid $light-grey;
+		font-size:13px;
+		
+		div {
+			line-height:35px;
+		}
+		
+		.seperator {
+			color:$light-grey;
+		}
+	}
+}

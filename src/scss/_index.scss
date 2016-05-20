@@ -1,0 +1,95 @@
+.introBar {
+	margin-top:25px;
+	border:1px solid $light-grey;
+	border-radius:3px;
+	padding:15px;
+	background-color:$white;
+	
+	h3 {
+		border-bottom:1px solid $light-grey;
+		padding:10px 0px;
+		margin-top:0px;
+		margin-bottom:10px;
+	}
+}
+
+.page-heading {
+	margin:15px 0px 0px 0px;
+	padding:0px;
+	
+	h2 {
+		border-bottom:1px solid $light-grey;
+		padding-bottom:10px;
+	}
+}
+
+.newMrf {
+	padding:0px;
+	text-align:right; 
+	
+	#startMrfField {
+		display:none;
+	}
+	
+	input {
+		height:25px;
+	}
+	
+	.go {
+		display:none; 
+		padding:4px 10px;
+		min-height:26px;
+		border-top:1px solid $light-grey;
+		border-right:1px solid $light-grey;
+		border-bottom:1px solid $light-grey;
+		border-top-right-radius: 3px;
+		border-bottom-right-radius: 3px;
+		background-color:$white;
+		z-index:10;
+	}
+}
+
+.index {
+	.panel {
+		padding:0px;
+		color:$white;
+
+		.table {
+			padding:0px;
+			
+			tr {
+				cursor:pointer;
+				span {
+					padding:10px;
+					color:$white;
+				}
+			}
+			
+		
+			tr:first-child {
+				background-color:$green !important;
+			}
+			
+			tr:nth-child(odd) {
+				background-color:#f8f8f8;
+			}
+			
+			tr:hover {
+				background-color:#ebebec;
+			}
+			
+			
+			td {
+				color:$dark-grey;
+			}
+			
+			td a, td b{
+				color:$white;
+			}
+			
+			td:first-child {
+				padding-left:35px;
+			}
+		}
+	}
+}
